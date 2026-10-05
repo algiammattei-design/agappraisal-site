@@ -1,0 +1,49 @@
+<section id="order">
+  <div class="wrap order-grid">
+    <div>
+      <p class="eyebrow">Order or ask</p>
+      <h2>Tell me the address and why you need it.</h2>
+      <p>That is genuinely all it takes to get a quote and a date. If you are an attorney or a CPA ordering for a client, put your own details in and the owner's in the notes.</p>
+      <ul class="contact-list">
+        <li><small>Call or text</small><a href="tel:+14075887197">(407) 588-7197</a></li>
+        <li><small>Email</small><a href="mailto:algiammattei@gmail.com">algiammattei@gmail.com</a></li>
+        <li><small>Hours</small>Mon to Fri, 9 to 5. Weekends by appointment.</li>
+      </ul>
+    </div>
+    <form class="quote" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="{{WEB3FORMS_KEY}}">
+      <input type="hidden" name="subject" value="New appraisal quote request from the website">
+      <input type="hidden" name="from_name" value="A.G. Appraisal Group website">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+      <div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+      <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div class="full"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+      <div class="full"><label for="f-address">Property address</label><input id="f-address" name="property_address" autocomplete="street-address" required></div>
+      <div><label for="f-reason">Reason for the appraisal</label>
+        <select id="f-reason" name="reason">
+          <option>Estate, probate or date of death</option>
+          <option>Divorce or equitable distribution</option>
+          <option>Property tax appeal</option>
+          <option>PMI removal</option>
+          <option>Gifting or wealth planning</option>
+          <option>Pre-listing or second opinion</option>
+          <option>Mortgage or refinance</option>
+          <option>Investor, as is or as repaired</option>
+          <option>New or under construction</option>
+          <option>Vacant residential land</option>
+          <option selected>Not sure, please advise</option>
+        </select></div>
+      <div><label for="f-date">Effective date needed</label>
+        <select id="f-date" name="effective_date">
+          <option>Current, as of inspection</option>
+          <option>A specific past date</option>
+          <option>January 1 of this tax year</option>
+          <option selected>Not sure, please advise</option>
+        </select></div>
+      <div class="full"><label for="f-notes">Anything I should know</label><textarea id="f-notes" name="message"></textarea></div>
+      <div class="full"><button class="btn btn-primary" type="submit">Request a quote</button></div>
+      <p class="form-note full">Every fee is quoted for the specific property before any work begins. Sending this does not commit you to anything.</p>
+      <p class="form-status full" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
