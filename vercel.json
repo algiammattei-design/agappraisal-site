@@ -2,5 +2,13 @@
   "outputDirectory": "public",
   "buildCommand": "",
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/about", "destination": "/#about", "permanent": true },
+    { "source": "/about-us", "destination": "/#about", "permanent": true },
+    { "source": "/contact", "destination": "/#order", "permanent": true },
+    { "source": "/contact-us", "destination": "/#order", "permanent": true },
+    { "source": "/services", "destination": "/#services", "permanent": true },
+    { "source": "/home", "destination": "/", "permanent": true }
+  ]
 }
