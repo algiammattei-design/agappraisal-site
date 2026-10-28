@@ -20,7 +20,7 @@ PHONE = "(407) 588-7197"
 PHONE_E164 = "+14075887197"
 EMAIL = "agappraisalgroupllc@gmail.com"
 # Web3Forms access key (from web3forms.com). Form messages go to the email the key was registered to. Public by design.
-WEB3FORMS_KEY = "a9d595ff-6a37-442a-b9fc-3441024caaa1"
+WEB3FORMS_KEY = "34589028-7740-44e7-bf37-ca64ffd340e2"
 PARTIALS = ROOT / "src" / "partials"
 
 BUSINESS = {
