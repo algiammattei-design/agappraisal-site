@@ -25,7 +25,7 @@
         }
       })
       .catch(function () {
-        status.textContent = "That did not go through. Please call or text (407) 588-7197, or email algiammattei@gmail.com.";
+        status.textContent = "That did not go through. Please call or text (407) 588-7197, or email agappraisalgroupllc@gmail.com.";
       })
       .finally(function () { button.disabled = false; });
   });
