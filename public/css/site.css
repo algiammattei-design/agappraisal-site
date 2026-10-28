@@ -158,8 +158,7 @@ thead th { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; 
 
 /* Mortgage rates (Mortgage News Daily widget) */
 .rates-note { font-size: .9rem; color: var(--ink-soft); }
-.rates-widget { max-width: 100%; overflow-x: auto; }
-.rates-widget > * { max-width: 100%; }
+.rates-widget { display: flex; justify-content: center; align-items: flex-start; }
 
 /* Testimonial */
 .testimonial blockquote { font-family: var(--serif); font-size: 1.2rem; line-height: 1.55; margin: 1.5rem 0; }
