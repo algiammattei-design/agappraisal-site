@@ -68,6 +68,7 @@ NAV = [
     ("/#area", "Where I work"),
     ("/#about", "About Al"),
     ("/#news", "News"),
+    ("/#rates", "Daily Mortgage Rates"),
     ("/#faq", "Questions"),
 ]
 
